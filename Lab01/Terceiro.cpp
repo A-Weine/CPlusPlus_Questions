@@ -1,12 +1,12 @@
-// terceiro.cpp – erros de semântica
+// terceiro.cpp â€“ erros de semÃ¢ntica
 #include <iostream>
 using namespace std;
 
 int main()
 {
-	int dias;      // declara uma variável inteira
+	int dias;      // declara uma variÃ¡vel inteira
     cout << "Numero de Dias: ";
-    cin >> dias;   // lê um valor para a variável
+    cin >> dias;   // lÃª um valor para a variÃ¡vel
 	
 	int horas = dias * 24;
     cout << dias << " dias tem " << horas << " horas." << endl;
