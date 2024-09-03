@@ -1,10 +1,10 @@
-// CalcMedia.cpp – calcula a média das avaliações
+// CalcMedia.cpp â€“ calcula a mÃ©dia das avaliaÃ§Ãµes
 #include <iostream>
 using namespace std;
 int main()
 {
 	float n1, n2, n3, media;
-	cout << "Calculando a média" << endl;
+	cout << "Calculando a mÃ©dia" << endl;
 	cout << "------------------" << endl;
 	cout << endl;
 	cout << "Nota 1: ";
@@ -15,7 +15,7 @@ int main()
 	cin >> n3;
 	cout << endl;
 	media = (n1 + n2 + n3) / 3;
-	cout << "A média das notas: " << media;
+	cout << "A mÃ©dia das notas: " << media;
 	cout << endl;
 	return 0;
 }
